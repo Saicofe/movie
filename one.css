@@ -1,0 +1,135 @@
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+.profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.navbar-custom {
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe-btn {
+    background-color: #ff5733;
+    color: #ffffff;
+}
+.subscribe-btn:hover {
+    background-color: #c70039;
+}
+.navbar-brand{
+    color: yellowgreen;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.navbar-nav{
+    margin-left: 300px;
+}
+/* end of the navbar  */
+.carousel-item {
+    position: relative;
+    height: 500px; 
+    overflow: hidden;
+    /* Set a fixed height */
+  }
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .carousel-caption {
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+  }
+  .carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .carousel-caption p {
+    font-size: 1.25rem;
+  }
+  /* end of the corosel  */
+
+
+  .movie-card {
+    background-color: #222;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+}
+.movie-card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.movie-card:hover {
+    transform: scale(1.05);
+}
+.movie-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+.see-more-btn {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.see-more-btn:hover {
+    background-color: #c70039;
+}
+
+/* end of the releases 
+
+*/
+
+
+.movie-box {
+    background-color: #222;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+}
+.movie-box img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.movie-box:hover {
+    transform: scale(1.05);
+}
+.movie-heading {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.load-more-btn {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+}
+.load-more-btn:hover {
+    background-color: #c70039;
+}
+
+/* end of the toprated */
+
